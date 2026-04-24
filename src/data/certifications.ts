@@ -14,24 +14,14 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    title: "AWS Certified Solutions Architect – Associate",
-    issuer: "Amazon Web Services",
+    title: "Fondamentaux et Concepts Avancés de la Programmation Java",
+    issuer: "MLIAEdu.toubkalit.com",
     issueDate: "2024-03",
-    credentialUrl: "https://credly.com/badges/xxxx",
-    skills: ["VPC", "Autoscaling"],
-    tags: ["Cloud", "DevOps"],
-    image: "/certs/aws-saa.webp",
-    imageAlt: "Badge AWS SAA",
+    credentialUrl: "https://mliaedu.toubkalit.com/verify-certificate/6-3a8f0816-b443-4e06-a66d-401cb718848b-489202",
+    skills: ["Programation Java"],
+    tags: ["Java"],
+    image: "/certs/java.webp",
+    imageAlt: "Cert Java",
     status: "active",
-  },
-  {
-    title: "Certified Kubernetes Administrator (CKA)",
-    issuer: "The Linux Foundation",
-    issueDate: "2025-01",
-    skills: ["Kubernetes", "Networking", "Troubleshooting"],
-    tags: ["Kubernetes", "DevOps"],
-    image: "/certs/cncf-cka.webp",
-    imageAlt: "Badge CKA CNCF",
-    status: "active",
-  },
+  }
 ];

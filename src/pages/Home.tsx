@@ -9,7 +9,7 @@ export default function Home() {
         <title>{profile.name} — Portfolio</title>
         <meta
           name="description"
-          content="Portfolio : IA, SIG, DevSecOps, Android."
+          content="Portfolio : IA, Android, Java, React."
         />
       </Helmet>
 
@@ -32,7 +32,7 @@ export default function Home() {
           className="mt-6 flex flex-wrap gap-2 text-sm"
           aria-label="badges de parcours"
         >
-          Master IA (2025) AWS SAA
+          CLE Informatique 2025/2026
         </div>
       </div>
 

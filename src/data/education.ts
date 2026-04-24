@@ -20,8 +20,8 @@ export const education: Education[] = [
     end: "2026-07",
     courses: ["Deep Learning", "Big Data", "Developement web et mobile"],
     highlights: [
-      "projet web et moble",
-      "projet bigdata",
+      "projet web et mobile",
+      "projet Bigdata",
       "article scientifique en DeepLearning",
     ],
   },

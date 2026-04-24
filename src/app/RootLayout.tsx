@@ -21,7 +21,7 @@ export default function RootLayout() {
         <Outlet />
       </main>
       <footer className="border-t py-6 text-center text-sm">
-        © {new Date().getFullYear()} • Mon Nom
+        © {new Date().getFullYear()} • Agouram Hassan
       </footer>
     </div>
   );

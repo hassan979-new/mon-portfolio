@@ -36,3 +36,37 @@
     @apply font-sans;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Inter,system-ui,sans-serif;
+background:
+radial-gradient(circle at top left, rgba(99,102,241,.25), transparent 35%),
+radial-gradient(circle at bottom right, rgba(168,85,247,.18), transparent 35%),
+#020617;
+color:#f8fafc;
+min-height:100vh;
+}
+
+*{
+box-sizing:border-box;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+transition:.3s;
+}
+
+h1,h2,h3{
+margin:0;
+font-weight:700;
+letter-spacing:-0.03em;
+}
